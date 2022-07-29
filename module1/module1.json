@@ -1,4 +1,5 @@
 {
+	"GOOS": "darwin",
 	"AR": "ar",
 	"CC": "clang",
 	"CGO_CFLAGS": "-g -O2",
@@ -22,7 +23,6 @@
 	"GOMOD": "/tmp/golang-cli-playbook/go.mod",
 	"GONOPROXY": "",
 	"GONOSUMDB": "",
-	"GOOS": "darwin",
 	"GOPATH": "/Users/xiao/go",
 	"GOPRIVATE": "",
 	"GOPROXY": "https://proxy.golang.org,direct",
