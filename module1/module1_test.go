@@ -24,7 +24,7 @@ func TestModule1CheckEnvGOOSInJson(t *testing.T) {
 
 	err := json.Unmarshal(content, &data)
 	if err != nil {
-		t.Errorf("it looks 'module1.json' is not correctly formatted as a JSON file%v", err)
+		t.Errorf("it looks 'module1.json' is not correctly formatted as a JSON file")
 	}
 
 	_, ok := data["GOOS"]
